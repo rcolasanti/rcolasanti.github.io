@@ -1,0 +1,26 @@
+<div class="container">
+<div class="jumbotron">
+
+    <h2> Employment</h2>
+
+  </div>
+
+
+<accordion close-others="true" >
+    <accordion-group ng-repeat="job in jobs" is-open="isopen">
+        <accordion-heading >
+            <div class="row">
+                <div class="col-sm-4">{{job.post}}</div>
+                <div class="col-sm-5">{{job.employer}}</div>
+                <div class="col-sm-2">{{job.dates}}</div>
+                <div class="col-sm-1">
+                      <i class="pull-right glyphicon"
+                            ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+                </div>           
+             </div>
+        </accordion-heading>
+        <div>{{job.description}}</div>
+    </accordion-group>
+</accordion>
+
+</div>

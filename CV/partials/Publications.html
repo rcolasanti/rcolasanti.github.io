@@ -1,0 +1,25 @@
+<div class="container">
+<div class="jumbotron">
+
+    <h2> Publications</h2>
+    <p>I have a number of publications of which the two most cited are:</br> <i>A unifying hypothesis for the structure of microbial biofilms based on cellular automaton models</i>. JWT Wimpenny, R Colasanti, cited by 354.</br> <i>Resource dynamics and vegetation processes: a deterministic model using two-dimensional cellular automata.</i>RL Colasanti, JP Grime, cited by 111.</br></p>
+    <a href="http://scholar.google.co.uk/citations?user=pO5QQjoAAAAJ&hl=en&oi=ao"><img src="images/GSC.png" class="img-rounded" width="120" ></a>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    
+      <div class="col-md-1">
+      </div>
+    <div class="row">
+      <div class="col-md-9">
+        <div ng-repeat="paper in papers">
+            <li><b>{{paper.authors}}</b>
+            {{paper.date}}.
+            <i>{{paper.title}}.</i>
+            {{paper.publication}}.</li>
+        </div>
+      </div>
+    </div>
+  </div>
