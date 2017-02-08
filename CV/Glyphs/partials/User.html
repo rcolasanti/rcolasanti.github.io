@@ -1,0 +1,57 @@
+<h1>Users </h1>
+
+<div class="row">
+    <div class="col-sm-4">
+        <p>We would find it useful if we could collect some anonymized data about yourself</p>
+    </div>
+    <div class="col-sm-8">
+        <!-- <div ng-controller="formCtrl"> -->
+        <form novalidate>
+            <br>
+            <br>
+            <label>How do you identify yourself ? </label>
+            <select class="form-control" ng-model="user.gender">
+                <option value="" disabled selected>Select your gender</option>
+                <option ng-repeat='item in listGender' value='{{item}}'>{{item}}</option>
+            </select>
+            <br>
+            <label>What age group are you in ? </label>
+            <select class="form-control" ng-model="user.age">
+                <option value="" disabled selected>Select your age</option>
+                <option ng-repeat='item in listAge' value='{{item}}'>{{item}}</option>
+            </select>
+            <br>
+            <label>What level of formal education do you have ? </label>
+            <select class="form-control" ng-model="user.education">
+                <option value="" disabled selected>Select your education</option>
+                <option ng-repeat='item in listEducation' value='{{item}}'>{{item}}</option>
+            </select>
+            <br>
+            <div class="form-group">
+            <label>If you have a degree or are studying for one, what subject is it in?</label>
+            <br>
+                 <input type="text" ng-model="user.educationSubject">
+            </div>
+            <br>
+            <label>What experience with data visualization do you have ? </label>
+            <select class="form-control" ng-model="user.vizExperiance">
+                <option value="" disabled selected>Select your experiance</option>
+                <option ng-repeat='item in ListVizExperiance' value='{{item}}'>{{item}}</option>
+            </select>
+            <br>
+            <label>What country do you associate yourself with ? </label>
+            <select class="form-control" ng-model="user.country">
+                <option value="" disabled selected>Select your country</option>
+                <option ng-repeat='item in listCountries' value='{{item.code}}'>{{item.name}} </option>
+            </select>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" ng-click="reset()">Submit</button>
+        </form>
+    </div>
+
+
+
+    <!-- </div> -->
+    <!--Col 8  -->
+</div>
