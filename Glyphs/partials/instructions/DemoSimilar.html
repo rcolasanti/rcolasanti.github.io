@@ -1,0 +1,31 @@
+<h1>Similar</h1>
+
+<div class="row">
+    <div class="col-sm-4">
+    <p> For this task you will be shown one target image (left) and grid of images (right). Your task is to find the image in the grid that looks <b>most similar</b> to the target image. You can select the image in the grid by clicking on it with your mouse.
+ </p>
+    <p>Click on the "Next" button to proceed with the practice.</p>
+    <br />
+    <br />
+    <br />
+
+    <button onclick="playVid()" type="button" class="btn btn-primary">Replay Video</button>
+    <button ng-click="clicked()" type="button" class="btn btn-primary">Next</button><br>
+  </div>
+    <div class="col-sm-8">
+      <video id="myVideo" width="600
+      " height="300"  autoplay>
+        <source src="../vid/similar.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+</div>
+<script>
+var vid = document.getElementById("myVideo");
+vid.muted = true;
+function playVid() {
+    vid.play();
+}
+
+
+</script>

@@ -1,0 +1,30 @@
+<h1>Sequence</h1>
+
+<div class="row">
+    <div class="col-sm-4">
+    <p>For this task you will be shown a sequence of 2, 3 or 4 images and a grid of images.</p>
+<p>Your tasks will be to find the assigned sequence within the grid.</p>
+<p>You can select the sequence in the grid by clicking on any of its elements with your mouse.</p>
+<p>A video on the right shows you a demo of the task.</p>
+<p>Click on the "Next" button to proceed with the task.</p>
+    <br />
+
+
+    <button onclick="playVid()" type="button" class="btn btn-primary">Replay Video</button>
+    <button ng-click="clicked()" type="button" class="btn btn-primary">Go to task</button><br>
+  </div>
+    <div class="col-sm-8">
+      <video id="myVideo2" width="500
+      " height="300"  autoplay>
+        <source src="../vid/sequence.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+</div>
+<script>
+var vid2 = document.getElementById("myVideo2");
+vid2.muted = true;
+function playVid() {
+  vid2.play();
+}
+</script>

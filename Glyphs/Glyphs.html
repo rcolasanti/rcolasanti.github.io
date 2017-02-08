@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Glyps</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/glyphs.css">
+</head>
+
+<body ng-app="myApp">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Glyphs</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#User">User</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="#StarPick">Odd</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="#StarOrder">Sequence</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="#StarSimlarity">Similar</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="#Questionnaire">Test</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 60px;">
+        <div ng-view></div>
+    </div>
+
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script>
+
+    <!-- Data -->
+    <script src="js/data/countries.js"></script>
+    <script src="js/data/iris.js"></script>
+    <script src="js/data/irisPlus.js"></script>
+    <script src="js/data/pickTasks.js"></script>
+    <script src="js/data/orderTasks.js"></script>
+    <script src="js/data/similarityTasks0.js"></script>
+    <script src="js/data/pickTasksTrain.js"></script>
+    <script src="js/data/orderTasksTrain.js"></script>
+    <script src="js/data/similarityTasksTrain.js"></script>
+
+    <!-- Stars -->
+    <script src="js/controlers/starPickReaderCtlr.js"></script>
+    <script src="js/controlers/starOrderReaderCtlr.js"></script>
+    <script src="js/controlers/starSimlarityReaderCtlr.js"></script>
+
+    <!-- Flowers -->
+    <script src="js/controlers/flowerPickReaderCtlr.js"></script>
+    <script src="js/controlers/flowerOrderReaderCtlr.js"></script>
+    <script src="js/controlers/flowerSimlarityReaderCtlr.js"></script>
+
+    <!-- Chmoji -->
+    <script src="js/controlers/chmojiPickReaderCtrl.js"></script>
+    <script src="js/controlers/chmojiOrderReaderCtrl.js"></script>
+    <script src="js/controlers/chmojiSimlarityReaderCtrl.js"></script>
+
+    <!-- Chernoff -->
+    <script src="js/controlers/chernoffPickReaderCtrl.js"></script>
+    <script src="js/controlers/chernoffOrderReaderCtrl.js"></script>
+    <script src="js/controlers/chernoffSimlarityReaderCtrl.js"></script>
+
+    <!-- Main -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

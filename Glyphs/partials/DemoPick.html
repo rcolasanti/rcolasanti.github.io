@@ -1,0 +1,28 @@
+<h1>The odd one out</h1>
+
+<div class="row">
+    <div class="col-sm-4">
+    The object of this exercise is to pick a single glyph, from a set of 36 that differs from the other 35 by clicking on that glyph. Click the button below to see an example shown in a video clip.<br />
+    <br />
+    <br />
+
+    <button onclick="playVid()" type="button" class="btn btn-primary">Replay Video</button>
+    <button ng-click="clicked()" type="button" class="btn btn-primary">Go to task</button><br>
+  </div>
+    <div class="col-sm-8">
+      <video id="myVideo" width="500
+      " height="500"  autoplay>
+        <source src="../vid/test.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+</div>
+<script>
+var vid = document.getElementById("myVideo");
+
+function playVid() {
+    vid.play();
+}
+
+
+</script>
