@@ -42,10 +42,20 @@ angular.module('app').config(function($stateProvider, $urlRouterProvider) {
 angular.module('app').factory('EmploymentDataFactory', function(){
     return {
       jobs: [
+      { post:'Snr Post Doctoral Researcher',
+        employer:'Swansea University',
+        dates:'2015-',
+        description:'At Swansea University I have two current research projects. The first is in the visualization of open source data networks. This work is for the UK DVLA; it is part of a multi discipline multi site project involved in understanding and quantifying the nature of data privacy. My specific task is to create an online tool for visualizing the connections between separate open source data sets and to graphically show networks of interaction between attributes and entities between and within data sets. The second project is an investigation into the creation and use  of data glyphs for multivariate data objects. As part of this work I have created an Android game similar to the popular game “Dots”. This game is part of an investigation into the use of gamification for measuring user perception of visual data'
+    },
+    { post:'PGCE Placment',
+      employer:'Cardiff University',
+      dates:'2014-2015',
+      description:'I am at heart a programmer, with a real passion for programming,  who wishes to teach others how to develop quality code. I want to pass on my enthusiasm and encourage my students to love to code as much as I do. To make this possible I undertook and was awarded a PGCE in post compulsory education from Cardiff University. This course included a very successful placement within the School of Computer Science & Informatics at Cardiff University, teaching in lecture and lab environments at both undergraduate and postgraduate levels. The highlight of my teaching practice was that my students nominated me for an Enriching student life award” which earned me a mug; it is my prized possession.'
+    },
     { post:'Snr Computational Biology Research Assistant',
       employer:'Computation Institute, University of Chicago USA',
       dates:'2012-2014',
-      description:'I contributed to the US Department of Energy KBase. KBase is an open platform comparative functional  genomics knowledge base. Here I used the data mining library WEKA within a Java program to predict the phenotypes of bacteria from their genotypes. I was also the lead frontend developer for another joint project  with Northwestern University on a metabolic database MINE.  This was a much smaller  project with two main developers: myself and a backend cheminformatics expert. This  project utilised the latest front end web development libraries, AngularJS and Bootstrap, along  with the specialist cheminformatics library from ChemAxon. The paper on this work has been accepted for the Journal of Cheminformatics'
+      description:'At  the University of Chicago I contributed to the US Department of Energy KBase. KBase is an open platform comparative functional  genomics knowledge base. Here I used the data mining library WEKA within a Java program to predict the phenotypes of bacteria from their genotypes. I was also the lead frontend developer for another joint project  with Northwestern University on a metabolic database MINE.  This was a much smaller  project with two main developers: myself and a backend cheminformatics expert. This  project utilised the latest front end web development libraries, AngularJS and Bootstrap, along  with the specialist cheminformatics library from ChemAxon. The paper on this work has been accepted for the Journal of Cheminformatics'
     },
     { post:'Post doctoral Researcher',
       employer:'Dept Surgery, University of Chicago USA',
@@ -70,14 +80,14 @@ angular.module('app').factory('EmploymentDataFactory', function(){
     { post:'Post Doctoral Researcher',
       employer:'University of Glamorgan UK',
       dates:'2001-2003',
-      description:'In a post-doctoral position at the University of Glamorgan in Wales I applied a range of data mining techniques to the modelling of breathing patterns in cystic fibrosis sufferers . As part of a proposal for producing a gas exchange model of the lung I also began development of a cellular automata model of angiogenesis.' 
+      description:'In a post-doctoral position at the University of Glamorgan in Wales I applied a range of data mining techniques to the modelling of breathing patterns in cystic fibrosis sufferers . As part of a proposal for producing a gas exchange model of the lung I also began development of a cellular automata model of angiogenesis.'
     },
     { post:'Senior Software Engineer',
       employer:'Momentum Healthcare, Cardiff UK',
       dates:'1998-2001',
       description:'I was the senior programmer for a start-up biotech company, Momentum Health Care (later acquired by Cellomics of the USA).  Here I applied MSc training in the area of neural networks to the field of data mining; in the process producing three patentable drug discovery software tools.'
     },
-    { post:'Computational Biologist',
+    { post:'Game programmer',
       employer:'Cyberlife Technologies, Cambridge UK',
       dates:'1997-1998',
       description:'At Cyberlife I was designated a ‘cyber ecologist’ and participated in the construction of an artificial ecosystem that was used in a version of the company’s main product: the computer game, Creatures.'
@@ -108,7 +118,7 @@ angular.module('app').factory('EmploymentDataFactory', function(){
 angular.module('app').controller('employmentCtl', function($scope,EmploymentDataFactory){
     $scope.jobs = EmploymentDataFactory.jobs;
     $scope.$parent.isopen = ($scope.$parent.default === $scope.item);
- 
+
     $scope.$watch('isopen', function (newvalue, oldvalue, $scope) {
                     $scope.$parent.isopen = newvalue;
                 });
@@ -124,7 +134,7 @@ angular.module('app').factory('QualificationsDataFactory', function(){
     { award:'PGCE (Post-Compulsory) (Merit)',
       institution:'University of Cardiff',
       dates:'2015'
-    }, 
+    },
     { award:'MSc Computing (Distinction)',
       institution:'University of Cardiff',
       dates:'2012'
@@ -142,7 +152,7 @@ angular.module('app').factory('QualificationsDataFactory', function(){
 
 angular.module('app').controller('qualificationsCtl', function($scope,QualificationsDataFactory){
     $scope.qualifications = QualificationsDataFactory.qualifications;
-   
+
 });
 
 
@@ -166,8 +176,8 @@ angular.module('app').factory('PublicationsDataFactory', function(){
       publication:'Respirology'
     },
     {authors:'Ric Colasanti, Janaka N. Edirisinghe, Tahmineh Khazaei, José P. Faria, Sam Seaver, Fangfang Xia and Christopher Henry',
-     date:'2014',   
-     title:'Tapping the Wealth of Microbial Data in High-Throughput Metabolic Model Reconstruction.', 
+     date:'2014',
+     title:'Tapping the Wealth of Microbial Data in High-Throughput Metabolic Model Reconstruction.',
      publication:'Metabolic Flux Analysis, Methods in Molecular Biology Volume 1191, 2014, pp 19-45'
     },
      { authors:'Williams, E. M., Powell, T., Eriksen, M., Neill, P., & Colasanti, R.',
