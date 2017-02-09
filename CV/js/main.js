@@ -146,6 +146,10 @@ angular.module('app').factory('QualificationsDataFactory', function(){
     { award:'B.Sc. Microbiology 2.ii Hons',
       institution:'University of London (Queen Elizabeth College)',
       dates:'1984'
+    },
+    { award:'Foundation Art',
+      institution:'Norwich School of Art',
+      dates:'1979'
     }
     ]};
 });
