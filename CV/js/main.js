@@ -44,12 +44,12 @@ angular.module('app').factory('EmploymentDataFactory', function(){
       jobs: [
       { post:'Snr Post Doctoral Researcher',
         employer:'Swansea University',
-        dates:'2015-',
+        dates:'2016-',
         description:'At Swansea University I have two current research projects. The first is in the visualization of open source data networks. This work is for the UK DVLA; it is part of a multi discipline multi site project involved in understanding and quantifying the nature of data privacy. My specific task is to create an online tool for visualizing the connections between separate open source data sets and to graphically show networks of interaction between attributes and entities between and within data sets. The second project is an investigation into the creation and use  of data glyphs for multivariate data objects. As part of this work I have created an Android game similar to the popular game “Dots”. This game is part of an investigation into the use of gamification for measuring user perception of visual data'
     },
     { post:'PGCE Placment',
       employer:'Cardiff University',
-      dates:'2014-2015',
+      dates:'2015-2016',
       description:'I am at heart a programmer, with a real passion for programming,  who wishes to teach others how to develop quality code. I want to pass on my enthusiasm and encourage my students to love to code as much as I do. To make this possible I undertook and was awarded a PGCE in post compulsory education from Cardiff University. This course included a very successful placement within the School of Computer Science & Informatics at Cardiff University, teaching in lecture and lab environments at both undergraduate and postgraduate levels. The highlight of my teaching practice was that my students nominated me for an Enriching student life award” which earned me a mug; it is my prized possession.'
     },
     { post:'Snr Computational Biology Research Assistant',
