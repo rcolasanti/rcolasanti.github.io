@@ -164,8 +164,20 @@ angular.module('app').factory('PublicationsDataFactory', function(){
     return {
       papers: [
       {
+          authors:' E Williams, R Colasanti, K Wolffs, P Thomas, B Hope-Gill',
+          date:'2018',
+          title:'Classification of Tidal Breathing Airflow Profiles Using Statistical Hierarchal Cluster Analysis in Idiopathic Pulmonary Fibrosis',
+          publication:'Medical Sciences'
+      },          
+      {
+          authors:'Adam P Arkin et.al',
+          date:'2018',
+          title:'The United States department of energy systems biology knowledgebase',
+          publication:'Nature biotechnology'
+      },      
+      {
           authors:' Christopher Henry; Claudia Lerma-Ortiz; Svetlana Gerdes; Ric Colansanti; Jeffrey Mullen; Aleksey Zhukov; Oceane Frelin; Jennifer Thiaville; Remi Zallot; Ghulam Hasnain; Thomas Niehaus; Neal Conrad; Andrew Hanson; Valerie de Crecy-Lagard',
-          date:'2016 in press',
+          date:'2017',
           title:'Systematic identification and analysis of frequent gene fusion events in metabolic pathways',
           publication:'Genome Biology'
       },
