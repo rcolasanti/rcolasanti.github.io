@@ -43,8 +43,13 @@ angular.module('app').factory('EmploymentDataFactory', function(){
     return {
       jobs: [
       { post:'Snr Post Doctoral Researcher',
+        employer:'University of Hull',
+        dates:'2019 - ',
+        description:'I am working with Dr Alexander Turner on the application of Artificial Life methods to the optimisation of deep learning architectures when applied to medical time series data. This work involves the targeted pruning of deep neural networks (multilayer perceptrons and concurrent neural networks for time series classification plus recurrent neural networks for time series prediction)  to both improve efficiency (both in terms of computational “effort” and performance) and to elucidate their behaviour in order to turn them into crystal box methods'
+    },
+    { post:'Snr Post Doctoral Researcher',
         employer:'Swansea University',
-        dates:'2016-',
+        dates:'2016-2019',
         description:'At Swansea University I have two current research projects. The first is in the visualization of open source data networks. This work is for the UK DVLA; it is part of a multi discipline multi site project involved in understanding and quantifying the nature of data privacy. My specific task is to create an online tool for visualizing the connections between separate open source data sets and to graphically show networks of interaction between attributes and entities between and within data sets. The second project is an investigation into the creation and use  of data glyphs for multivariate data objects. As part of this work I have created an Android game similar to the popular game “Dots”. This game is part of an investigation into the use of gamification for measuring user perception of visual data'
     },
     { post:'PGCE Placment',
