@@ -43,77 +43,92 @@ angular.module('app').factory('EmploymentDataFactory', function(){
     return {
       jobs: [
       { post:'Snr Post Doctoral Researcher',
+		type:'Deep learning',
         employer:'University of Hull',
         dates:'2019 - ',
         description:'I am working with Dr Alexander Turner on the application of Artificial Life methods to the optimisation of deep learning architectures when applied to medical time series data. This work involves the targeted pruning of deep neural networks (multilayer perceptrons and concurrent neural networks for time series classification plus recurrent neural networks for time series prediction)  to both improve efficiency (both in terms of computational “effort” and performance) and to elucidate their behaviour in order to turn them into crystal box methods'
     },
     { post:'Snr Post Doctoral Researcher',
         employer:'Swansea University',
+        type:'Visualisation',
         dates:'2016-2019',
         description:'At Swansea University I have two current research projects. The first is in the visualization of open source data networks. This work is for the UK DVLA; it is part of a multi discipline multi site project involved in understanding and quantifying the nature of data privacy. My specific task is to create an online tool for visualizing the connections between separate open source data sets and to graphically show networks of interaction between attributes and entities between and within data sets. The second project is an investigation into the creation and use  of data glyphs for multivariate data objects. As part of this work I have created an Android game similar to the popular game “Dots”. This game is part of an investigation into the use of gamification for measuring user perception of visual data'
     },
-    { post:'PGCE Placment',
+    { post:'PGCE Placement',
       employer:'Cardiff University',
-      dates:'2015-2016',
+      type:'Lecturer Computer Science',
+        dates:'2015-2016',
       description:'I am at heart a programmer, with a real passion for programming,  who wishes to teach others how to develop quality code. I want to pass on my enthusiasm and encourage my students to love to code as much as I do. To make this possible I undertook and was awarded a PGCE in post compulsory education from Cardiff University. This course included a very successful placement within the School of Computer Science & Informatics at Cardiff University, teaching in lecture and lab environments at both undergraduate and postgraduate levels. The highlight of my teaching practice was that my students nominated me for an Enriching student life award” which earned me a mug; it is my prized possession.'
     },
-    { post:'Snr Computational Biology Research Assistant',
+    { post:'Snr Post Doctoral Researcher',
       employer:'Computation Institute, University of Chicago USA',
+      type:'Data mining',
       dates:'2012-2014',
       description:'At  the University of Chicago I contributed to the US Department of Energy KBase. KBase is an open platform comparative functional  genomics knowledge base. Here I used the data mining library WEKA within a Java program to predict the phenotypes of bacteria from their genotypes. I was also the lead frontend developer for another joint project  with Northwestern University on a metabolic database MINE.  This was a much smaller  project with two main developers: myself and a backend cheminformatics expert. This  project utilised the latest front end web development libraries, AngularJS and Bootstrap, along  with the specialist cheminformatics library from ChemAxon. The paper on this work has been accepted for the Journal of Cheminformatics'
     },
     { post:'Post doctoral Researcher',
+	  type:'Modelling',  
       employer:'Dept Surgery, University of Chicago USA',
       dates:'2009-2011',
       description:'At Northwestern University I uesed cellular automata models of imumne system cells to  discover general rules of individual cell behaviour and how this gave rise to their collective behaviour. To this end I developed the idea of Computational Cellular Ethology (CCE). CCE is the evaluation of cellular behaviour using a subsumption architecture of information-processing modules. This method has its roots in behavioural robotics, and allows the construction of a control structure for a cell by treating it as an autonomous agent. As a demonstration of this approach I presented a CCE agent based model of cellular foraging movement that mirrored an experimentally recognized bi-modal of random walk behaviour. This type of behavioural representation provided an insight into the process of cellular motility, both in terms of characterizing the roles of biochemical subsystems and identifying control structures involved in chemotaxis and tissue patterning.'
     },
     { post:'Post Doctoral Researcher',
+      type:'Modelling',  
       employer:'Queensland University of Technology Australia',
       dates:'2007-2009',
       description:'At Queensland University of Technology  I was the principal computational modeller in a project to  simulate human skin through mathematical and in silico experimentation. The principle aims of this project were to develop hybrid multi–scale models of the temporal and spatial dynamics of human skin, and to use these models, to represent in silico, laboratory-grown human skin equivalent (HSE) constructs. I  concentrated on discovering general rules of individual cell behaviour and how their collective behaviour gives rise to tissue form and function. I treated each cell as a finite state machine subsuming the cellular biochemical networks into a set  of simple rules that are driven purely by the state of the cell and its immediate neighbours. The research has produced two interesting models. The first is a cellular automata that demonstrated a mechanism modulating the differentiation and regulation of the layering of epithelial tissue that depends on the establishment and maintenance of a calcium gradient (observed in both human skin and experimental constructs). The model shows that the calcium gradient and the differentiated tissue are an autopoiesis system with the calcium gradient maintained by the differentiating tissue while in turn the continued differentiation of the cells, and hence the layered structure of the epidermis, is driven by the calcium gradient. The second used a simple rule base of cell states to describe which cells within the epidermis are proliferating and how are the cell linages maintained and spatially organized. The simulation showed that the two standard models used to describe  proliferation had logical shortcomings in their predictions. The CA new model added a new but very limited set of local cell rules that again produced a self organising system that maintained cell populations over a range of conditions.'
     },
     { post:'Post Doctoral Researcher',
       employer:'CSIRO Brisbane Australia',
+      type:'Modelling',  
       dates:'2005-2007',
       description:'At the CSIRO in Brisbane, Australia I used cellular automata models to investigate the dynamics of invasion biology. Plant invasion is of particular relevance to my interest in emergent behaviours in biological systems. The susceptibility of vegetation to invasion is a high-level property because the ability of an invader to enter into  an established plant community is a function of both the invading plant and the collective behaviour of the vegetation. One of the most important aspects of this project has been its concentration on the application of simple low-level rules of community construction. To this end I  concentrated on discovering general rules of invasion by asking what information on the invasive behaviour and establishment of plant species can be obtained for free, i.e. with no prior information about plant ecology. My general methodology was to use two neutral ecological models. The neutral theory of community structure and neutral landscape model that describes a species "percolation" across a connected landscape.'
     },
     { post:'NRC Research Fellow',
       employer:'EPA Corvallis USA',
+      type:'Modelling',  
       dates:'2003-2005',
       description:'The US NRC research fellowships are competitively awarded on the basis of an original research proposal submitted by the applicant that fulfils the twin criteria of original scientific undertaking and relevance to required new knowledge.My research proposal was accepted for funding and undertaken at the research division of the USA Environmental Protection Agency in Corvallis, Oregon. The  project’s aims were to obtain an understanding of the complicated behaviour of ecosystem population dynamics by means of a model involving realistic first-order approximations to vegetative and reproductive plant strategies, pollination and Mendelian genetics, and to apply these in a spatially explicit manner to investigations of the potential downstream ecological effects of  genetically modified (GM) plants. The model was also to be used to answer specific safety assessment questions associated with the introduction of a GM grass currently under study at the EPA.'
     },
     { post:'Post Doctoral Researcher',
       employer:'University of Glamorgan UK',
+      type:'Clinical data mining',  
       dates:'2001-2003',
       description:'In a post-doctoral position at the University of Glamorgan in Wales I applied a range of data mining techniques to the modelling of breathing patterns in cystic fibrosis sufferers . As part of a proposal for producing a gas exchange model of the lung I also began development of a cellular automata model of angiogenesis.'
     },
     { post:'Senior Software Engineer',
       employer:'Momentum Healthcare, Cardiff UK',
+      type:'Clinical data mining',  
       dates:'1998-2001',
       description:'I was the senior programmer for a start-up biotech company, Momentum Health Care (later acquired by Cellomics of the USA).  Here I applied MSc training in the area of neural networks to the field of data mining; in the process producing three patentable drug discovery software tools.'
     },
     { post:'Game programmer',
+      type:'Modelling',  
       employer:'Cyberlife Technologies, Cambridge UK',
       dates:'1997-1998',
       description:'At Cyberlife I was designated a ‘cyber ecologist’ and participated in the construction of an artificial ecosystem that was used in a version of the company’s main product: the computer game, Creatures.'
     },
     { post:'Multimedia Programmer',
       employer:'MHA Productions, London UK ',
+      type:'Multimedia programmer',  
       dates:'1996-1997',
       description:'The production of screen savers and web page embedded Java  games for film promotion in cluding Star Treck First Contact, Twelve monkys and Twister '
     },
     { post:'Research Associate',
       employer:'UCPE, University of Sheffield UK',
+      type:'Modelling',  
       dates:'1991-1996',
       description:' At UCPE I was responsible for the mathematical modelling of plant functional types for the DoE’s core model project for climate change and also the spatial modelling of plant populations for the DoE’s Key Habitat project on atmospheric deposition. This work was expanded on and became the core to the unit’s contribution to two EU framework projects on C02 and ozone effects on plant communities. I won a Brittish Council funded exchange with AgResearch in New Zealand. Here I applied computer simulation to the problem of below ground competition for nutrients by plant root systems in porous soil. The methodology was a hybrid of L-systems,cellular automata and lattice gas. The further development and refinement of these methodologies led directly to the self-assembling plant models, which was to form the basis of my research for the award of a PhD by the University of Sheffield'
     },
     { post:'Research Assistant',
       employer:'UKAE, Harwell UK',
+      type:'Modelling',  
       dates:'1987-1991',
       description:'At the United Kingdom Atomic Energy Authority (UKAEA) I was involved in modelling the microbial ecology of concrete encapsulated low-level nuclear waste for the UKAEA, and the modelling of microbial degradation of domestic refuse sites for the UK Department of Environment (DoE).'
     },
     { post:'Scientific Officer',
       employer:'Department of Microbiology, University of Surrey UK',
+      type:'Modelling',  
       dates:'1984-1987',
       description:'As a Scientific Officer at the Department of Microbiology, University of Surrey my areas of research were the design of computer expert systems for controlling chemostats and modelling of microbial metabolism'
     }

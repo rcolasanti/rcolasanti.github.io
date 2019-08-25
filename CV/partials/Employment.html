@@ -10,8 +10,9 @@
     <accordion-group ng-repeat="job in jobs" is-open="isopen">
         <accordion-heading >
             <div class="row">
-                <div class="col-sm-4">{{job.post}}</div>
-                <div class="col-sm-5">{{job.employer}}</div>
+                <div class="col-sm-3">{{job.post}}</div>
+                <div class="col-sm-3">{{job.type}}</div>
+                <div class="col-sm-3">{{job.employer}}</div>
                 <div class="col-sm-2">{{job.dates}}</div>
                 <div class="col-sm-1">
                       <i class="pull-right glyphicon"
