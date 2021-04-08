@@ -189,13 +189,6 @@ angular.module('app').controller('qualificationsCtl', function($scope,Qualificat
 angular.module('app').factory('PublicationsDataFactory', function(){
     return {
       papers: [
-
-      {
-          authors:' R Hunt, RL Colasanti',
-          date:'2021',
-          title:'Real communities of virtual plants explain biodiversity on just three assumptions',
-          publication:' in silico Plants
-      },
 	      {
           authors:' E Williams, R Colasanti, K Wolffs, P Thomas, B Hope-Gill',
           date:'2018',
