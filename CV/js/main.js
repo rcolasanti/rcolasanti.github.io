@@ -42,11 +42,17 @@ angular.module('app').config(function($stateProvider, $urlRouterProvider) {
 angular.module('app').factory('EmploymentDataFactory', function(){
     return {
       jobs: [
+	       { post:'Snr Post Doctoral Researcher',
+		type:'Data mining',
+        employer:'Bournemouth University ',
+        dates:'2020',
+        description:'Mental health smartphone apps'
+    },
       { post:'Snr Post Doctoral Researcher',
 		type:'Deep learning',
         employer:'University of Hull',
-        dates:'2019 - ',
-        description:'I am working with Dr Alexander Turner on the application of Artificial Life methods to the optimisation of deep learning architectures when applied to medical time series data. This work involves the targeted pruning of deep neural networks (multilayer perceptrons and concurrent neural networks for time series classification plus recurrent neural networks for time series prediction)  to both improve efficiency (both in terms of computational “effort” and performance) and to elucidate their behaviour in order to turn them into crystal box methods'
+        dates:'2019 - 2020',
+        description:'I worked with Dr Alexander Turner on a one yesr post doc on the application of Artificial Life methods to the optimisation of deep learning architectures when applied to medical time series data. This work involves the targeted pruning of deep neural networks (multilayer perceptrons and concurrent neural networks for time series classification plus recurrent neural networks for time series prediction)  to both improve efficiency (both in terms of computational “effort” and performance) and to elucidate their behaviour in order to turn them into crystal box methods'
     },
     { post:'Snr Post Doctoral Researcher',
         employer:'Swansea University',
