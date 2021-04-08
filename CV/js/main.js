@@ -189,7 +189,7 @@ angular.module('app').controller('qualificationsCtl', function($scope,Qualificat
 angular.module('app').factory('PublicationsDataFactory', function(){
     return {
       papers: [
-	      {
+      {
           authors:' E Williams, R Colasanti, K Wolffs, P Thomas, B Hope-Gill',
           date:'2018',
           title:'Classification of Tidal Breathing Airflow Profiles Using Statistical Hierarchal Cluster Analysis in Idiopathic Pulmonary Fibrosis',
