@@ -43,7 +43,7 @@ angular.module('app').factory('EmploymentDataFactory', function(){
     return {
       jobs: [
 	       { post:'Snr Post Doctoral Researcher',
-		type:'Data visualisation and mining',
+		type:'Modeling',
         employer:'Bournemouth University ',
         dates:'2020',
         description:'At Bournemouth University I am applying agent based models in python to study the influence of personal social networks on the health of the long term unemployed '
