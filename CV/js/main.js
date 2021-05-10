@@ -186,9 +186,17 @@ angular.module('app').controller('qualificationsCtl', function($scope,Qualificat
 });
 
 
+
+
 angular.module('app').factory('PublicationsDataFactory', function(){
     return {
       papers: [
+            {
+          authors:'Hunt, Roderick, and Ric L. Colasanti',
+          date:'2021',
+          title:'Real communities of virtual plants explain biodiversity on just three assumptionss',
+          publication:'in silico Plants'
+      },
       {
           authors:' E Williams, R Colasanti, K Wolffs, P Thomas, B Hope-Gill',
           date:'2018',
