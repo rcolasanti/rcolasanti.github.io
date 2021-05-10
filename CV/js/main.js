@@ -46,7 +46,7 @@ angular.module('app').factory('EmploymentDataFactory', function(){
 		type:'Data visualisation and mining',
         employer:'Bournemouth University ',
         dates:'2020',
-        description:'Mental health smartphone apps.Our aim is to create a very focused app that will allow clients to record their own thoughts, feelings, and behaviors as part of a CBT-based exercise in self-monitoring'
+        description:'At Bournemouth University I am applying agent based models in python to study the influence of personal social networks on the health of the long term unemployed '
     },
       { post:'Snr Post Doctoral Researcher',
 		type:'Deep learning',
