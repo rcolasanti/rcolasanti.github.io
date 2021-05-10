@@ -186,8 +186,6 @@ angular.module('app').controller('qualificationsCtl', function($scope,Qualificat
 });
 
 
-
-
 angular.module('app').factory('PublicationsDataFactory', function(){
     return {
       papers: [
@@ -197,6 +195,12 @@ angular.module('app').factory('PublicationsDataFactory', function(){
           title:'Real communities of virtual plants explain biodiversity on just three assumptionss',
           publication:'in silico Plants'
       },
+      {
+          authors:'Colasanti, Ricardo, Rita Borgo, and Mark W. Jones',
+          date:'2019',
+          title:'Emoji and Chernoff-A Fine Balancing Act or are we Biased?',
+          publication:'IEEE Pacific Visualization Symposium (PacificVis). IEEE'
+      },      
       {
           authors:' E Williams, R Colasanti, K Wolffs, P Thomas, B Hope-Gill',
           date:'2018',
