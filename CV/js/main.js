@@ -42,10 +42,16 @@ angular.module('app').config(function($stateProvider, $urlRouterProvider) {
 angular.module('app').factory('EmploymentDataFactory', function(){
     return {
       jobs: [
+        { post:'Snr Post Doctoral Researcher',
+		type:'Agent Based Modelling',
+        employer:'University of Glasgow ',
+        dates:'2022',
+        description:'The MRC/CSO Social and Public Health Sciences Unit, University of Glasgow is conserned with understanding the The MRC/CSO Social and Public Health Sciences Unit, University of Glasgow is concerned with understanding the complex how interactions between the  environmental and social structures influence public health. As part of this they utilised agent based modelling. My post is to both contribute to the use of ABMs in understanding noncommunicable diseases (ncd) like obesity and to  encourage and help others to create NDC ABM through the PHASE project'
+    },
 	       { post:'Snr Post Doctoral Researcher',
 		type:'Modeling',
         employer:'Bournemouth University ',
-        dates:'2020',
+        dates:'2020-2022',
         description:'At Bournemouth University I am applying agent based models in python to study the influence of personal social networks on the health of the long term unemployed '
     },
       { post:'Snr Post Doctoral Researcher',
