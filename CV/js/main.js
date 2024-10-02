@@ -46,19 +46,19 @@ angular.module('app').factory('EmploymentDataFactory', function(){
 		type:'Agent Based Modelling',
         employer:'University of Glasgow ',
         dates:'2022',
-        description:'The MRC/CSO Social and Public Health Sciences Unit, University of Glasgow is conserned with understanding the The MRC/CSO Social and Public Health Sciences Unit, University of Glasgow is concerned with understanding the complex how interactions between the  environmental and social structures influence public health. As part of this they utilised agent based modelling. My post is to both contribute to the use of ABMs in understanding noncommunicable diseases (ncd) like obesity and to  encourage and help others to create NDC ABM through the PHASE project'
+        description:'The MRC/CSO Social and Public Health Sciences Unit, University of Glasgow is concerned with understanding the The MRC/CSO Social and Public Health Sciences Unit, University of Glasgow is concerned with understanding the complex how interactions between the  environmental and social structures influence public health. As part of this they utilised agent based modelling. My post is to both contribute to the use of ABMs in understanding noncommunicable diseases (ncd) like obesity and to  encourage and help others to create NDC ABM through the PHASE project'
     },
 	       { post:'Snr Post Doctoral Researcher',
 		type:'Modeling',
         employer:'Bournemouth University ',
         dates:'2020-2022',
-        description:'At Bournemouth University I am applying agent based models in python to study the influence of personal social networks on the health of the long term unemployed '
+        description:'At Bournemouth University, I contributed to the PATHways project, an EU-funded initiative aimed at preventing, diagnosing, and managing mild to moderate perinatal mental health issues. I developed models of support networks and created a prototype auto-generated comic to capture individuals experiences. During the COVID-19 crisis, I also created a website for COVID-19 pregnancy information '
     },
       { post:'Snr Post Doctoral Researcher',
 		type:'Deep learning',
         employer:'University of Hull',
         dates:'2019 - 2020',
-        description:'I worked with Dr Alexander Turner on a one yesr post doc on the application of Artificial Life methods to the optimisation of deep learning architectures when applied to medical time series data. This work involves the targeted pruning of deep neural networks (multilayer perceptrons and concurrent neural networks for time series classification plus recurrent neural networks for time series prediction)  to both improve efficiency (both in terms of computational “effort” and performance) and to elucidate their behaviour in order to turn them into crystal box methods'
+        description:'I worked with Dr Alexander Turner on a one year post doc on the application of Artificial Life methods to the optimisation of deep learning architectures when applied to medical time series data. This work involves the targeted pruning of deep neural networks (multilayer perceptions and concurrent neural networks for time series classification plus recurrent neural networks for time series prediction)  to both improve efficiency (both in terms of computational “effort” and performance) and to elucidate their behaviour in order to turn them into crystal box methods'
     },
     { post:'Snr Post Doctoral Researcher',
         employer:'Swansea University',
@@ -82,7 +82,7 @@ angular.module('app').factory('EmploymentDataFactory', function(){
 	  type:'Modelling',  
       employer:'Dept Surgery, University of Chicago USA',
       dates:'2009-2011',
-      description:'At Northwestern University I uesed cellular automata models of imumne system cells to  discover general rules of individual cell behaviour and how this gave rise to their collective behaviour. To this end I developed the idea of Computational Cellular Ethology (CCE). CCE is the evaluation of cellular behaviour using a subsumption architecture of information-processing modules. This method has its roots in behavioural robotics, and allows the construction of a control structure for a cell by treating it as an autonomous agent. As a demonstration of this approach I presented a CCE agent based model of cellular foraging movement that mirrored an experimentally recognized bi-modal of random walk behaviour. This type of behavioural representation provided an insight into the process of cellular motility, both in terms of characterizing the roles of biochemical subsystems and identifying control structures involved in chemotaxis and tissue patterning.'
+      description:'At Northwestern University I used cellular automata models of immune system cells to  discover general rules of individual cell behaviour and how this gave rise to their collective behaviour. To this end I developed the idea of Computational Cellular Ethology (CCE). CCE is the evaluation of cellular behaviour using a subsumption architecture of information-processing modules. This method has its roots in behavioural robotics, and allows the construction of a control structure for a cell by treating it as an autonomous agent. As a demonstration of this approach I presented a CCE agent based model of cellular foraging movement that mirrored an experimentally recognized bi-modal of random walk behaviour. This type of behavioural representation provided an insight into the process of cellular motility, both in terms of characterizing the roles of biochemical subsystems and identifying control structures involved in chemotaxis and tissue patterning.'
     },
     { post:'Post Doctoral Researcher',
       type:'Modelling',  
@@ -124,13 +124,13 @@ angular.module('app').factory('EmploymentDataFactory', function(){
       employer:'MHA Productions, London UK ',
       type:'Multimedia programmer',  
       dates:'1996-1997',
-      description:'The production of screen savers and web page embedded Java  games for film promotion in cluding Star Treck First Contact, Twelve monkys and Twister '
+      description:'The production of screen savers and web page embedded Java  games for film promotion in cluding Star Trek First Contact, Twelve monkeys and Twister '
     },
     { post:'Research Associate',
       employer:'UCPE, University of Sheffield UK',
       type:'Modelling',  
       dates:'1991-1996',
-      description:' At UCPE I was responsible for the mathematical modelling of plant functional types for the DoE’s core model project for climate change and also the spatial modelling of plant populations for the DoE’s Key Habitat project on atmospheric deposition. This work was expanded on and became the core to the unit’s contribution to two EU framework projects on C02 and ozone effects on plant communities. I won a Brittish Council funded exchange with AgResearch in New Zealand. Here I applied computer simulation to the problem of below ground competition for nutrients by plant root systems in porous soil. The methodology was a hybrid of L-systems,cellular automata and lattice gas. The further development and refinement of these methodologies led directly to the self-assembling plant models, which was to form the basis of my research for the award of a PhD by the University of Sheffield'
+      description:' At UCPE I was responsible for the mathematical modelling of plant functional types for the DoE’s core model project for climate change and also the spatial modelling of plant populations for the DoE’s Key Habitat project on atmospheric deposition. This work was expanded on and became the core to the unit’s contribution to two EU framework projects on C02 and ozone effects on plant communities. I won a British Council funded exchange with AgResearch in New Zealand. Here I applied computer simulation to the problem of below ground competition for nutrients by plant root systems in porous soil. The methodology was a hybrid of L-systems,cellular automata and lattice gas. The further development and refinement of these methodologies led directly to the self-assembling plant models, which was to form the basis of my research for the award of a PhD by the University of Sheffield'
     },
     { post:'Research Assistant',
       employer:'UKAE, Harwell UK',
