@@ -191,7 +191,7 @@ angular.module('app').factory('ProgrammingDataFactory', function(){
 
       description2:"The following is a link to a series of 6 social science agent-based models that I implemented in JavaScript and run entirely within the webpage. The page, along with this CV website, also demonstrates what can be done for data visualization using frameworks like AngularJS and styling libraries like Bootstrap.",
       ref2:"https://phasenetwork.org/case-studies",
-      label2:'Agent Base Models in JavaScript',
+      label2:'Agent Based Models in JavaScript',
 
       description3:"One of my two favorite projects was an auto-generated comic. Here, you can manipulate two comic robot characters. This was created using JavaScript and SVG",
       ref3:"https://ric-colasanti.github.io/auto-comic/robots.html",
