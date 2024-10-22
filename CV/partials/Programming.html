@@ -2,18 +2,33 @@
 <div class="jumbotron">
 
     <h2> Programming</h2>
-    <p>My current specialist knowledge, along with web front end development, is in modelling and simulation.</p>
+    <p>I just love to code. My current specialist knowledge, in addition to web front-end development, lies in modelling and simulation. However, I also code for fun - check out my game in the JavaScript section</p>
     </div>
 
 
+    <accordion close-others="true" >
+        <accordion-group ng-repeat="job in jobs" is-open="isopen">
+            <accordion-heading >
+                <div class="row">
+                    <div class="col-sm-11">{{job.language}}</div>
+                    
+                    <div class="col-sm-1">
+                          <i class="pull-right glyphicon"
+                                ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+                    </div>           
+                 </div>
+            </accordion-heading>
+            <div>
+                <p>{{job.description1}} <a href="{{job.ref1}}" target="_blank">{{job.label1}}</a></p>
+                <p>{{job.description2}} <a href="{{job.ref2}}"target="_blank">{{job.label2}}</a></p>
+                <p>{{job.description3}} <a href="{{job.ref3}}"target="_blank">{{job.label3}}</a></p>
+                <p>{{job.description4}} <a href="{{job.ref4}}"target="_blank">{{job.label4}}</a></p>
+                <p>{{job.description5}} <a href="{{job.ref5}}"target="_blank">{{job.label5}}</a></p>
+                </div>
+        </accordion-group>
+    </accordion>
 
-<p> I have extensive, varied and indeed current educational and industrial experience including links with Argonne National Laboratories (ANL) in the US and with University of South Wales. Much of my work has been in a team environment writing significant and large code bases, most recently with the US Department of Energy KBase.KBase is an open platform comparative functional  genomics knowledge base. Here I used the <b>data mining library WEKA</b> within a <b>Java</b> program to predict the phenotypes of bacteria from their genotypes. KBase is.a multi-million dollar project distributed across multiple sites and teams. The project was run in a multi-site distributed <b>scrum</b> management method and employed distributed version control and documentation. High level requirements and design were set in “all hands” meetings at each of the main development sites. The sub modules were focused with “break out” sub groups. The makeup of sub groups were also multisite and were organised around web enabled scrums.   My responsibilities within the project was for the design, development, testing and deployment of data mining modules in which I assumed the role of <b>scrum master</b>. I have developed <b>webinars</b> and ran tutorials at international conferences. I was also the lead frontend developer for another joint project with Northwestern University on a <b>metabolic database</b> MINE.  This was a much smaller project with two main developers: myself and a backend cheminformatics expert. This project utilised the latest front end <b>web development</b> libraries <b>AngularJS and Bootstrap</b> along with the specialist cheminformatics library from ChemAxon.  I am also involved in the area of agent based modeling by remotely supervising a postgraduate researcher at Chicago University. Since I have returned to the UK, I have been working with a team from the University of South Wales and Huntleigh Diagnostics to create a blood flow diagnostic tool. This work has led to the creation of a startup company. This project involves analysis of cardiopulmonary signals using dynamic time warping. This is being prototyped in <b>IPython notebook with scipy, matplotlib, pandas and scikit-learn</b></p>
 
-<p>I have had extensive industrial experience: I was the senior software engineer of a biotech start up, developed three patents for drug discovery, and had clients in France, Switzerland, Germany and the USA. The company was purchased by Cellomics USA (now part of ThermoFisher Scientific). I was a lead environmental modeler for the games company Cyberlife and I have also had my own freelance company that had clients from the world of film promotion, property development, and included the industrial design partnership Seymourpowell. Much of my working life has involved using knowledge acquired from scholarship to my work in industry. The reverse is also true, using industry experience to inform my teaching, as part of my degree that I launched at the then University of Glamorgan, I canvassed requirements and desires of local biotech companies in the design of the degree. 
-</p>
-<p>The delivery of successful simulation and data analysis programs to a wide range of clients in biological science required that I have an extensive knowledge of and proficiency in a number of programming languages together with a good working knowledge of mathematical  and computational methods. The modeling of the microbial metabolism for both the University of Surrey and UKAEA involved the use of both in-house <b>PDE software</b> and the creation of bespoke software. The expert system data analysis for Cellomics required both <b>Visual Basic and Prolog</b> and the construction of an adaptive neural net. The breathing pattern analysis for the University of Glamorgan required  a knowledge of time course signal processing.  The gene flow analysis for the EPA required a <b>distributed program</b> which was written in JAVA interfacing with <b>MySQL</b>. For simulations that required faster execution but were less interactive, such as the invasive plant models for CSIRO, I have used both <b>C and C++</b>. For  epidermal CA models for QUT I have used JAVA; this produces models that can run on all the major platforms used within the research group and run within a web page.
- At UCPE I was responsible for the mathematical modelling of plant functional types for the DoE’s core model project for climate change and also the spatial modelling of plant populations for the DoE’s Key Habitat project on atmospheric deposition. This work was expanded on and became the core to the unit’s contribution to two EU framework projects on C02 and ozone effects on plant communities.</p>
- 
 </div>
 
 
