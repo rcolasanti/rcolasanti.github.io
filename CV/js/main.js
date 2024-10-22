@@ -185,7 +185,7 @@ angular.module('app').factory('ProgrammingDataFactory', function(){
     },
        { language:'JavaScript',
   
-      description1:"JavaScript is my favorite language to write in. The fact that I can code anywhere and run programs simply by using a web browser is a joy. For me, however, its greatest virtue is its freedom in programming style, as exemplified in the book 'If Hemingway Wrote JavaScript'. I code in a style reminiscent of Hemingway, by the way. However, JavaScript has a dark origin in that it is the product of the reprehensible Brendan Eich, who serves as a reminder of all that is bad and non-inclusive about coding",
+      description1:"JavaScript is my favorite language to write in. The fact that I can code anywhere and run programs simply by using a web browser is a joy. For me, however, its greatest virtue is its freedom in programming style, as exemplified in my favorite book 'If Hemingway Wrote JavaScript'. I code in a style reminiscent of Hemingway, by the way. However, JavaScript has a dark origin in that it is the product of the reprehensible Brendan Eich, who serves as a reminder of all that is bad and non-inclusive about coding",
       ref1:"https://www.hive.co.uk/Product/Angus-Croll/If-Hemingway-Wrote-Javascript/16040580",
       label1:'If Hemingway Wrote JavaScript',
 
@@ -202,15 +202,17 @@ angular.module('app').factory('ProgrammingDataFactory', function(){
       label4:'Roswell Runner',
   },
     { language:'Java',
-      description1:'I have extensive experience in Java programming through my work with KBase, where I used the data mining library WEKA to predict the phenotypes of bacteria from their genotypes.',
-      description2:'I developed a gene flow analysis program for the EPA using Java and interfaced it with MySQL.',
-      description3:'I used Java to create epidermal cellular automata (CA) models for QUT that can run on all the major platforms used within the research group and run within a web page.'
+      description1:'I have extensive experience in Java programming through my work with KBase, where I used the data mining library WEKA to predict the phenotypes of bacteria from their genotypes.I developed a gene flow analysis program for the EPA using Java and interfaced it with MySQL.I used Java to create epidermal cellular automata (CA) models for QUT that can run on all the major platforms used within the research group and run within a web page.'
   },
-  { language:'Other',
-      description1:'NetLogo',
-      description2:'Visual Basic :I used Visual Basic for expert system data analysis for Cellomics.',
-      description3:'Prolog: Iused Prolog for expert system data analysis for Cellomics.',
-      description4:'C/C++:I used C and C++ to create faster-executing but less interactive simulations, such as invasive plant models for CSIRO.'
+  { language:'7 more languages in way more than 7 weeks',
+      description1:" I believe that learning a new programming language provides a new perspective on coding, allowing you to see data in a different light. This phenomenon is reminiscent of the Sapir-Whorf hypothesis, which suggests that language influences thought and perception. In the context of programming, this means that each new language you learn can shape your understanding of data and problem-solving.This idea is beautifully illustrated in my second favorite book, '7 Languages in 7 Weeks' by Bruce Tate",
+      ref1:"https://www.hive.co.uk/Product/Bruce-A-Tate/Seven-Languages-in-Seven-Weeks/7534500",
+      label1:"7 Languages in 7 Weeks",
+
+      description2:'Although not a programming language I have created a number of models in NetLogo. It is a superb programming environment. Here is my version of an Opinion dynamics mode I did with Dr Gary Polhill',
+      ref2:"https://ric-colasanti.github.io/Opinion-dynamics/",
+      label2:"NetLogo Opinion-dynamics",
+      description3:'Visual Basic: I used Visual Basic to develop drug discovery software for Cellomics. Prolog: I utilized Prolog for expert system data analysis at Argonne National Labs. C/C++: I employed C and C++ to create faster-executing, but less interactive simulations, such as invasive plant models for CSIRO. Perl: Although not my favorite, Perl taught me the value of dictionaries. I used it to write AI scripts during my time at the games company Cyberlife. Pascal (Delphi): My artificial life (Alife) models for my PhD were written in Delphi. Julia: Like the Borg, "Resistance is futile." I have started to explore alternatives to Python and have rewritten many of my models in Julia.'
   }
   ]};
 });
