@@ -265,7 +265,31 @@ angular.module('app').controller('qualificationsCtl', function($scope,Qualificat
 angular.module('app').factory('PublicationsDataFactory', function(){
     return {
       papers: [
-            {
+        {
+          authors:'Hare, M., Salt, D., Colasanti, R., Milton, R., Batty, M., Heppenstall, A., & Polhill, G',
+          date:'2024',
+          title:'Taking Agent-Based Social Simulation to the Next Level Using Exascale Computing: Potential Use-Cases, Capacity Requirements and Threats. ',
+          publication:'Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (pp. 2300-2302)'
+      },           
+      {
+        authors:'Edirisinghe, J. N., Goyal, S., Brace, A., Colasanti, R',
+        date:'2023',
+        title:' Machine Learning-Driven Phenotype Predictions based on Genome Annotations ',
+        publication:'bioRxiv, 2023-08'
+    },  
+    {
+      authors:'Buckley, C., Breeze, P., Brennan, A., Colasanti, R.',
+      date:'2023',
+      title:' Exploring the relationship between food advertising and consumption of foods high in fat, salt, and sugar in England: an agent-based modelling study ',
+      publication:'In Appetite (Vol. 189, pp. 106933-106933)'
+  },         
+  {
+    authors:'Elsenbroich, C., Colasanti, R., Boyd, J., Pollack, R., Gilbert, N.',
+    date:'2023',
+    title:'Modelling Demographic Developments Driven by Housing Market Dynamics ',
+    publication:'Conference of the European Social Simulation Association (pp. 373-379)'
+},
+   {
           authors:'Hunt, Roderick, and Ric L. Colasanti',
           date:'2021',
           title:'Real communities of virtual plants explain biodiversity on just three assumptionss',
